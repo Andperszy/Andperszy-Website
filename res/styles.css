@@ -1,7 +1,10 @@
 /* Styles that applies to all variables */
 
 *{
-	user-select: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 	font-family: -apple-system, BlinkMacSystemFont, 'SF Mono Regular', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }	
 
@@ -90,12 +93,16 @@ footer{
 
 a{
 	color: white;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 
 }
 
 a:hover{
 	color: darkgray;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 
