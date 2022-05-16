@@ -90,12 +90,15 @@ footer{
 
 a{
 	color: white;
+	transition: 0.5s;
+
 }
 
 a:hover{
 	color: gray;
+	transition: 0.5s;
 }
 
 a:active{
-	color: dimgray;
+	color: white;
 }
