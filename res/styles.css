@@ -95,10 +95,10 @@ a{
 }
 
 a:hover{
-	color: gray;
+	color: darkgray;
 	transition: 0.5s;
 }
 
 a:active{
-	color: white;
+	color: gray;
 }
