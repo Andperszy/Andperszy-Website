@@ -1,0 +1,111 @@
+/* Styles that applies to all variables */
+
+*{
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'SF Mono Regular', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}	
+
+/* Main styles */
+
+body{
+	overflow: hidden;
+	background:  url(../res/BW\ back.png);
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+h1{
+	color: white;
+	font-size: 400%;
+	text-align: center;
+	padding: 200px 0;	
+}
+
+h2{
+	color: white;
+	font-size: 300%;
+	text-align: center;
+	padding: 200px 0;	
+}
+
+h3{
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	padding: 200px 0;	
+}
+
+h4{
+	color: white;
+	font-size: 100%;
+	text-align: center;
+	padding: 200px 0;	
+}
+
+h5{
+	color: white;
+	font-size: 50%;
+	text-align: center;
+	padding: 200px 0;	
+}
+
+h6{
+	color: white;
+	font-size: 25%;
+	text-align: center;
+	padding: 200px 0;	
+}
+
+li{
+	color: white;
+	font-size: 200%;
+	text-align: center;
+}
+
+center{
+	color: white;
+	font-size: 200%;
+}
+
+ul{
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+footer{
+	position:fixed;
+	left:0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	color: white;
+	font-size: 75%;
+	text-align: center;
+}
+
+/* Links */
+
+a{
+	color: white;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+
+}
+
+a:hover{
+	color: darkgray;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+a:active{
+	color: gray;
+}
