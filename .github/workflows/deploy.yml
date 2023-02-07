@@ -34,6 +34,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
+    if: github.ref == !'refs/heads/gh-pages'
 
     steps:
       - name: Download artifact
