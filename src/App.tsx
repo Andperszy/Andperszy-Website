@@ -10,7 +10,7 @@ function App() {
       </div>
       <h1>Andperszy</h1>
       <p>
-        Known for our <a href="https://sns.andperszy.cf/">Snack & Self website project</a>
+        Known for our <a href="https://andperszy.github.io/Snack-And-Self/">Snack & Self website project</a>
       </p>
     </div>
   )
