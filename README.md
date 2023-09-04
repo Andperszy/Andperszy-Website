@@ -1,5 +1,5 @@
 <!-- Variables -->
-[website]: https://andperszy.cf/
+[website]: https://andperszy.github.io/Andperszy-Website/
 
 # The Andperszy website
 
